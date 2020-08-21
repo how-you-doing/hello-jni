@@ -1,5 +1,5 @@
 # hello-jni
-Beginner guide to JNI
+Beginner guide to `Java Native Interface (JNI)`, is a framework that provides a bridge between Java and native applications
 
 # Steps
 
