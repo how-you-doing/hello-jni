@@ -28,8 +28,8 @@ javah MessagePrinter
 
 ## 3. Create a shared lib
 Create a new cpp program with jni header
-- ex: MessagePrinter.java
-- Now It is possible to "shared lib",
+- ex: MessagePrinter2.cpp
+- Now we can create "shared lib"
 - For linux: 
 ```
 gcc -fPIC -I/usr/lib/jvm/java-1.8.0-openjdk-amd64/include/ -I/usr/lib/jvm/java-1.8.0-openjdk-amd64/include/linux -shared -o libprinter.so MessagePrinter2.cpp
